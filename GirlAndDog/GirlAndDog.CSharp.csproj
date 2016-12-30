@@ -81,12 +81,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\onBall.cs" />
+    <Compile Include="Assets\Scripts\onFollowObject.cs" />
     <Compile Include="Assets\Scripts\onGirl.cs" />
     <Compile Include="Assets\Scripts\onLeftTrigger.cs" />
     <Compile Include="Assets\Scripts\onRightTrigger.cs" />
-    <Compile Include="Assets\onFollowObject.cs" />
-    <Compile Include="Assets\onUI_Bag.cs" />
-    <Compile Include="Assets\onUI_Item.cs" />
+    <Compile Include="Assets\Scripts\onTrigger_Dog.cs" />
+    <Compile Include="Assets\Scripts\onTrigger_Girl.cs" />
+    <Compile Include="Assets\Scripts\onUI_Bag.cs" />
+    <Compile Include="Assets\Scripts\onUI_Item.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
