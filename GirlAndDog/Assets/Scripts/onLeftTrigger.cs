@@ -11,6 +11,6 @@ public class onLeftTrigger : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        print(Input.GetAxis("LeftTrigger"));
+      //  print(Input.GetAxis("LeftTrigger"));
     }
 }
